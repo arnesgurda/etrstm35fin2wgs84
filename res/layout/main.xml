@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/X" />
+
+    <EditText
+        android:id="@+id/x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exampleX" />
+
+     <TextView    
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/Y" />    
+    <EditText
+        android:id="@+id/y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:text="@string/exampleY"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:onClick="convert"/>
+    <TextView
+        android:id="@+id/txtLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+     <TextView
+         android:id="@+id/txtLon"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="" />
+     
+      <TextView
+          android:id="@+id/txtLink"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:autoLink="web"
+          android:linksClickable="true"/>
+    
+</LinearLayout>
+ </ScrollView>

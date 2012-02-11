@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ETRSTM35FIN2WGS84</string>
+       <string name="convert">Muunna</string>
+       <string name="info">Muunna ETRS-TM35FIN -tasokoordinaatit WGS89-koordinaateiksi</string>
+ 		<string name="X">X</string>
+ 		<string name="Y">Y</string>
+ 		<string name="show_map">Näytä kartalla</string>
+ 		<string name="exampleX">7007657</string>
+ 		<string name="exampleY">228415</string>
+ 		<string name="badXValue">Annetun arvon pitää olla välillä %1$f - %2$f</string>
+ 		<string name="about_menu_info">\nKoordinaattimuunnos\n\nhttp://code.google.com\n\nandroid.timo@gmail.com</string>
+ 		
+</resources>

@@ -1,0 +1,1 @@
+Program to convert coordinate system used in Finland to WGS84
